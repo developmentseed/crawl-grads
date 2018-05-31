@@ -1,0 +1,30 @@
+{
+  "name": "crawl-grads",
+  "version": "0.0.0",
+  "description": "crawl GrADS catalog pages",
+  "main": "index.js",
+  "bin": {
+    "crawl-grads": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developmentseed/crawl-grads.git"
+  },
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developmentseed/crawl-grads/issues"
+  },
+  "homepage": "https://github.com/developmentseed/crawl-grads#readme",
+  "dependencies": {
+    "@cumulus/cumulus-message-adapter-js": "^1.0.1",
+    "assert-argument": "^1.0.2",
+    "simplecrawler": "^1.1.6"
+  },
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
