@@ -1,6 +1,6 @@
 {
   "name": "crawl-grads",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "crawl GrADS catalog pages",
   "main": "index.js",
   "bin": {
